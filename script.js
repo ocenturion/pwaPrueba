@@ -31,5 +31,5 @@ window.onerror = function (message, url, lineNo){
 }
 //funcion para hacer vibrar el celular
 function vibrar(){
-	window.navigator.vibrate([100,1000,100]);
+	window.navigator.vibrate([10]);
 }
