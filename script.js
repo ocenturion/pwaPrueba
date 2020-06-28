@@ -29,6 +29,7 @@ window.onerror = function (message, url, lineNo){
     console.log('entre a error');
     return true;
 }
+//funcion para hacer vibrar el celular
 function vibrar(){
-	window.navigator.vibrate([1000]);
+	window.navigator.vibrate([100]);
 }
