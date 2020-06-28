@@ -33,3 +33,6 @@ window.onerror = function (message, url, lineNo){
 function vibrar(){
 	window.navigator.vibrate([50]);
 }
+window.addEventListener('appinstalled', (evt) => {
+    app.logEvent('a2hs', 'installed');
+});
