@@ -29,3 +29,6 @@ window.onerror = function (message, url, lineNo){
     console.log('entre a error');
     return true;
 }
+function vibrar(){
+	window.navigator.vibrate([1000]);
+}
