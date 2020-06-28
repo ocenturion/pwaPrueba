@@ -16,7 +16,7 @@ function saveBeforeInstallPromptEvent(evt) {
   // CODELAB: Add code to save event & show the install button.
   evt.preventDefault();
   deferredInstallPrompt = evt;
-  //installButton.removeAttribute('hidden');
+  installButton.removeAttribute('hidden');
 }
 
 function installPWA(evt) {
