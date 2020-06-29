@@ -33,7 +33,8 @@ window.onerror = function (message, url, lineNo){
 function vibrar(){
 	window.navigator.vibrate([50]);
 }
+// luego de aparecer el prompt para instalar y darle a "agregar" se ejecuta lo siguiente
 window.addEventListener('appinstalled', (evt) => {
     //app.logEvent('a2hs', 'installed');
-	alert("instaldo");
+    //alert("instaldo");
 });
