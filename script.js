@@ -38,3 +38,7 @@ window.addEventListener('appinstalled', (evt) => {
     //app.logEvent('a2hs', 'installed');
     //alert("instaldo");
 });
+//consulto el idioma del dispositivo, celular, pc, etc
+function getIdioma(){
+	alert(window.navigator.language);
+}
