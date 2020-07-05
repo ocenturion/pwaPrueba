@@ -20,6 +20,13 @@
 <link rel="manifest" href="manifest.json">
 
     <style>
+		.foto{
+			opacity:0;
+		}
+		.label:hover{
+			color:orange;
+			fill:orange;
+		}
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -52,8 +59,10 @@
 				<input type="checkbox" value="remember-me"> Remember me
 			</label>
 		</div>
-		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-	    	<div onclick="vibrar()" class="btn btn-dark">Vibrar</div>
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button><br>
+		<div onclick="getIdioma()" class="btn btn-danger">Idioma</div>
+		<input type="file" class="foto" id="foto" name="foto" accept="image/*" capture="camera">
+		<label for="foto" class="label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg></label>
 		<br>
 		<p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
 	</form>
@@ -64,3 +73,4 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
+
